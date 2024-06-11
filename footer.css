@@ -1,0 +1,116 @@
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 135px;
+    background-color: #FAFAFF;
+    padding-top: 125px;
+    padding-bottom: 75px;
+}
+
+.footer-logo {
+    width: 181px;
+    height: 108px;
+    margin-top: -75px;
+}
+
+.footer-col1-des {
+font-size: 18px;
+font-weight: 500;
+line-height: 21.94px;
+text-align: left;
+color: #B6B6B6;
+ margin-top: 40px;
+ width: 80%;
+}
+
+.footer-social {
+     margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    gap: 20px;
+}
+
+.facebook {
+    height: 42px;
+    width: 42px;
+    border-radius: 25px;
+    background-color: #F5DDC4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* gap: 40px; */
+}
+
+.col2 {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.line1 {
+font-size: 18px;
+font-weight: 500;
+line-height: 21.94px;
+text-align: left;
+
+}
+
+.col2-title {
+font-size: 26px;
+font-weight: 700;
+line-height: 31.69px;
+text-align: left;
+
+}
+
+.line1 {
+font-size: 18px;
+font-weight: 500;
+line-height: 21.94px;
+text-align: left;
+color: #B6B6B6;
+
+}
+
+.email-box {
+    width: 80%;
+height: 58px;
+gap: 0px;
+border-radius: 32.5px;
+opacity: 0px;
+box-shadow: 0px 0px 15px 0px #0000000D;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 20px;
+}
+
+.emailbox-entry{
+    border: none;
+    outline: none;
+    margin-left: 25px;
+}
+
+.email-send-button {
+    margin-right: 10px;;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.second {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}

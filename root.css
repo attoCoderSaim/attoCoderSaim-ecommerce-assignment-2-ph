@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --background-color: #1E1E1E;
+    --font-primary-color: #FFFFFF;
+    --primary-color: #F48E28;
+    --max-width: 1560px;
+}
+
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+
+@media only screen and (max-width: 1060px) {
+    
+}
+
+@media only screen and (max-width: 825px) {
+    .banner-container {
+        flex-direction: column !important;
+    }
+
+    .left-banner {
+        width: 90% !important;
+    }
+
+    .popular-grid {
+        grid-template-columns: 1fr 1fr !important;    
+    }
+
+    .footer {
+        flex-direction: column !important;
+        gap: 40px !important;
+    }
+
+    .first {
+        width: 100% !important;
+    }
+    
+    .second {
+        width: 100% !important;
+    }
+
+    .col2 {
+        width: 100% !important;
+    }
+
+    .testimonial-main {
+        gap: 40px !important;
+    }
+
+    .nav-search {
+        width: 250px !important;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    .nav-container {
+        flex-direction: column !important;
+        gap: 20px !important;
+        align-items: flex-start !important;
+    }
+
+    .nav-links {
+        flex-direction: column !important;
+        gap: 20px !important;
+        align-items: flex-start !important;
+    }
+
+    .title-bar {
+        font-size: 50px !important;
+    }
+
+    /* .right-banner {
+        display: none !important;
+    } */
+
+    .banner-grid-container {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 40px !important;
+        align-items: center !important;
+    }
+
+    .adress-contact {
+        flex-direction: column !important;
+        gap: 40px !important;
+        align-items: center !important;
+    }
+
+    .line-add {
+        display: none !important;
+    }
+
+    .popular-grid {
+        grid-template-columns: 1fr !important;
+        
+    }
+
+    .popular-items {
+        align-items: center !important;
+    }
+
+    .all-services {
+        flex-direction: column !important;
+        gap: 40px !important;
+    }
+
+    .all-testimonials {
+        flex-direction: column !important;
+        gap: 40px !important;
+    }
+
+    .newsletter {
+        flex-direction: column !important;
+        gap: 40px !important;
+    }
+
+    .first {
+        flex-direction: column !important;
+        gap: 40px !important;
+    }
+    
+    .second {
+        flex-direction: column !important;
+        gap: 40px !important;
+    }
+
+    .service-item {
+        padding: 103px 0px 103px 0px !important;
+    }
+}
